@@ -1,9 +1,10 @@
 import json
 import os
-from WSIGraph import constructGraphFromDict
+import sys
+from sc_MTOP.WSIGraph import constructGraphFromDict
 from collections import defaultdict
 import numpy as np
-from utils_xml import get_windows
+from sc_MTOP.utils_xml import get_windows
 
 def fun3(json_path, wsi_path, output_path, xml_path=None):
     # json_path = '../Part1_HoverNet/COWH.json'
